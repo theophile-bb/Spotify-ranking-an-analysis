@@ -11,8 +11,29 @@ This project is divided into 2 parts :
 
 • Web Application: An interactive Gradio webapp that plots the ranking of a song in the selected region.
 
-## Repository Structure
+## Data
 
+The dataset for this project is sourced from Spotify Charts, which provides publicly available rankings of the most streamed songs on the platform. The dataset includes attributes such as:
+
+• Track Name
+
+• Artist
+
+• Ranking data (peak rank, previous rank, number of week on chart)
+
+• Number of streams
+
+• Release date
+
+• Collab
+
+• Country
+
+• Music features (danceability, loudness, tempo, valence, liveness, loudness,...)
+
+
+
+## Repository Structure
 • Spotify Analysis.ipynb: This notebook is divided in 2 parts : the data cleaning and processing, and the analysis analysis process of Spotify's Top 200 charts
 to identify trends, such as the most streamed songs, artists, and genres over specific periods.
 
