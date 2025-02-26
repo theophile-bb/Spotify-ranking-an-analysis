@@ -13,6 +13,8 @@ This project is divided into 2 parts :
 
 ## Data
 
+Dataset : https://www.kaggle.com/datasets/yelexa/spotify200
+
 The dataset for this project is sourced from Spotify Charts, which provides publicly available rankings of the most streamed songs on the platform. The dataset includes attributes such as:
 
 • Track Name
