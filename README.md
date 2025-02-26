@@ -31,7 +31,7 @@ The dataset for this project is sourced from Spotify Charts, which provides publ
 
 • Music features (danceability, loudness, tempo, valence, liveness, loudness,...)
 
-
+The dataset has a total of 36 columns.
 
 ## Repository Structure
 • Spotify Analysis.ipynb: This notebook is divided in 2 parts : the data cleaning and processing, and the analysis analysis process of Spotify's Top 200 charts
