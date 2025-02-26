@@ -39,4 +39,4 @@ The dataset has a total of 36 columns.
 • Spotify Analysis.ipynb: This notebook is divided in 2 parts : the data cleaning and processing, and the analysis analysis process of Spotify's Top 200 charts
 to identify trends, such as the most streamed songs, artists, and genres over specific periods.
 
-• Spotify webapp.ipynb: This other notebook is dedicated to the Gradio webapp to visualize songs by country.
+• Spotify webapp.ipynb: This other notebook is dedicated to the Gradio webapp to visualize songs by country. It takes a kaggle link as input to get the dataset, and then 2 dropdowns - one for the country and one the song - are loaded. The functions then load the evolution of the ranking of the selected song.
