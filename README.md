@@ -37,8 +37,11 @@ $ cd Spotify-ranking-an-analysis
 $ pip install -r requirements.txt
 ```
 
+---
 
 ## Getting the data
+
+[![Kaggle Dataset](https://img.shields.io/badge/Kaggle-Dataset-blue?logo=kaggle)](https://www.kaggle.com/datasets/yelexa/spotify200)
 
 Dataset : https://www.kaggle.com/datasets/yelexa/spotify200
 
