@@ -11,9 +11,15 @@ This project contains a comprehensive analysis of **Spotify’s regional Top 200
 ## Project Structure
 
 Spotify-ranking-an-analysis/ <br>
-├── Spotify Analysis.ipynb # Main data analysis notebook <br>
-├── Spotify webapp.ipynb <br>
+├── Notebooks/
+│ ├── Spotify_Analysis.ipynb
+│ ├── Spotify_webapp.ipynb
+├── Spotify Analysis.html <br>
+├── src/
+│ ├── init.py
+│ └── utils.py 
 ├── requirements.txt <br>
+├── plots/
 ├── .gitignore <br>
 └── README.md <br>
 
