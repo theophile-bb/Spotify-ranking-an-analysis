@@ -82,3 +82,18 @@ It includes:
 
 - Insights into trends affecting popular songs
 
+---
+
+## Visualizations
+
+Example of visualizations made :
+
+*Word map of streams density*
+<img width="1904" height="910" alt="map_plot" src="https://github.com/user-attachments/assets/fb620a32-5420-4c84-a068-187a2722c63e" />
+
+*Music genre repartition*
+<img width="1904" height="910" alt="pie_plot" src="https://github.com/user-attachments/assets/709737d5-0ac7-42f9-be56-9b352086ab5c" />
+
+*Countries with the most streams*
+<img width="1904" height="910" alt="bar_plot" src="https://github.com/user-attachments/assets/ffc3aa7d-667a-4f64-8f8b-10c09349efa5" />
+
