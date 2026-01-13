@@ -1,66 +1,80 @@
 # Spotify Ranking : an analysis
 
-This repository contains a comprehensive analysis of Spotify's regional Top 200 song charts, aiming to uncover trends and insights surrounding the music streaming industry.
+[![Colab](https://img.shields.io/badge/Open%20in-Colab-blue?logo=googlecolab)](https://colab.research.google.com/github/theophile-bb/Spotify-ranking-an-analysis/blob/main/Spotify%20Analysis.ipynb)
 
-![image](https://github.com/user-attachments/assets/eda1d039-0e91-48a5-8089-7eda3bf2ccdd)
+This project contains a comprehensive analysis of **Spotify’s regional Top 200 song charts** to uncover trends and characteristics of modern popular music and provides a simple Gradio webapp for interactive visualization of track rankings by region.
 
-This project is divided into 2 parts :
+---
 
-• **Case Study : What are the caracteristics of modern popular songs ?** : An in-depth exploration of Spotify's streaming data to identify key insights.
+## Project Structure
 
-• Web Application: An interactive Gradio webapp that plots the ranking of a song in the selected region.
+Spotify-ranking-an-analysis/
+├── Spotify Analysis.ipynb # Main data analysis notebook
+├── Spotify webapp.ipynb 
+├── requirements.txt
+├── .gitignore
+└── README.md
 
-## Repository Structure
-• Spotify Analysis.ipynb: This notebook is divided in 2 parts : the data cleaning and processing, and the analysis analysis process of Spotify's Top 200 charts
-to identify trends, such as the most streamed songs, artists, and genres over specific periods.
+---
 
-• Spotify webapp.ipynb: This other notebook is dedicated to the Gradio webapp to visualize songs by country. It takes a kaggle link as input to get the dataset, and then 2 dropdowns - one for the country and one the song - are loaded. The functions then load the evolution of the ranking of the selected song.
+## 📋 Prerequisites
 
-## Data
+Before running this project, make sure you have:
+
+- Python 3.7+
+- A Python environment (venv, conda, etc.)
+- All dependencies installed via `requirements.txt`
+
+---
+
+## ⚙️ Installation
+
+Clone the repository and install dependencies:
+
+```
+$ git clone https://github.com/theophile-bb/Spotify-ranking-an-analysis.git
+$ cd Spotify-ranking-an-analysis
+$ pip install -r requirements.txt
+```
+
+
+## Getting the data
 
 Dataset : https://www.kaggle.com/datasets/yelexa/spotify200
 
-The dataset for this project is sourced from Spotify Charts, which provides publicly available rankings of the most streamed songs on the platform. The dataset includes attributes such as:
+This dataset includes:
 
-• Track Name
+- Track name
 
-• Artist
+- Artist
 
-• Ranking data (peak rank, previous rank, number of weeks on chart)
+- Weekly ranking
 
-• Number of streams
+- Streams
 
-• Release date
+- Release information
 
-• Collab
+- Country and region metadata
 
-• Country
+- Music features (e.g., danceability, tempo, valence)
 
-• Music features (danceability, loudness, tempo, valence, liveness, loudness,...)
+---
 
-The dataset has a total of 36 columns.
+## Notebook
 
-## Methodology
-The analysis is structured as follows:
+The main analysis is in: energy_forecasting.ipynb
 
-### Data Preprocessing:
-➣ Converting columns to appropriate type
 
-➣ Filling NaN values
+It includes:
 
-➣ Replacing aberrant values.
+- Data loading and preprocessing
 
-### Data visualization and analysis:
-➣ Genre distribution
+- Cleaning and feature engineering
 
-➣ Streams by regions of the world : number of streams by region
+- Genre distribution analysis
 
-➣ How many songs does an average user listens to ?
+- Streams by region and country breakdowns
 
-➣ Number of streams by country : visualization using a world map
+- Top artists, collaborations, and popularity metrics
 
-➣ Who are the top artists based on the number of streams ?
-
-➣ How do featurings influence the popularity of a song ? Which artists are more into solos and which are more into featurings ?
-
-➣ Which artists have the most cumulated weeks in the top 200 ?
+- Insights into trends affecting popular songs
