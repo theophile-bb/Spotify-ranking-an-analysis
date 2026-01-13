@@ -56,3 +56,7 @@ data/
 
 !plots/
 !plots/*.html
+
+# Track Plotly HTML exports
+!plots/
+!plots/*.html
