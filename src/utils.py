@@ -7,6 +7,20 @@ import kagglehub
 
 import plotly.express as px
 
+#--------------------- Save Images ------------------------
+
+def save_figs(figs, folder="plots"):
+    os.makedirs(folder, exist_ok=True)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+    for i, fig in enumerate(figs, 1):
+        fig.savefig(
+            f"{folder}/plot_{i}_{timestamp}.png",
+            dpi=300,
+            bbox_inches="tight"
+        )
+
+    print(f"✅ Saved {len(figs)} figures to {folder}/")
 
 #--------------------- Webapp ------------------------
 
@@ -76,3 +90,4 @@ def update_songs(df, country):
 
 def update_plot(df, country, song):
         return plot_song(df, country, song)
+
