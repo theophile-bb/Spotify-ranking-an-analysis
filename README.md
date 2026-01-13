@@ -3,6 +3,7 @@
 [![Colab](https://img.shields.io/badge/Open%20in-Colab-blue?logo=googlecolab)](https://colab.research.google.com/github/theophile-bb/Spotify-ranking-an-analysis/blob/main/Spotify%20Analysis.ipynb)
 [![Kaggle Dataset](https://img.shields.io/badge/Kaggle-Dataset-blue?logo=kaggle)](https://www.kaggle.com/datasets/yelexa/spotify200)
 [![Website](https://img.shields.io/badge/Website-GitHub%20Pages-blue?logo=github)](https://theophile-bb.github.io/Spotify-ranking-an-analysis/Spotify_Analysis.html)
+
 This project contains a comprehensive analysis of **Spotify’s regional Top 200 song charts** to uncover trends and characteristics of modern popular music and provides a simple Gradio webapp for interactive visualization of track rankings by region.
 
 ---
