@@ -4,7 +4,7 @@ import os
 import kagglehub
 import plotly.express as px
 from datetime import datetime
-from typing import List, Tuple, Optional, Any, Union
+from typing import List, Tuple, Optional, Any, Union, Dict
 import plotly.graph_objects as go
 
 def save_figs(figs: List[go.Figure], folder: str = "plots") -> None:
@@ -88,3 +88,4 @@ def update_songs(df: Optional[pd.DataFrame], country: Optional[str]) -> Tuple[Di
 
 def update_plot(df: Optional[pd.DataFrame], country: Optional[str], song: Optional[str]) -> Optional[go.Figure]:
     return plot_song(df, country, song)
+
