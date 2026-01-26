@@ -7,7 +7,7 @@ from datetime import datetime
 from typing import List, Tuple, Optional, Any, Union, Dict
 import plotly.graph_objects as go
 
-def save_figure(folder: str, title: str) -> None:
+def save_figure_png(folder: str, title: str) -> None:
   title = title.replace(' ','_')
   plt.savefig(os.path.join(folder, f"{title}.png"), dpi=150)
   return None
@@ -93,5 +93,6 @@ def update_songs(df: Optional[pd.DataFrame], country: Optional[str]) -> Tuple[Di
 
 def update_plot(df: Optional[pd.DataFrame], country: Optional[str], song: Optional[str]) -> Optional[go.Figure]:
     return plot_song(df, country, song)
+
 
 
