@@ -12,7 +12,8 @@ import plotly.graph_objects as go
 
 def save_figure_png(folder: str, title: str) -> None:
   title = title.replace(' ','_')
-  plt.savefig(os.path.join(folder, f"{title}.png"), dpi=150)
+  img_path = os.path.join(folder, f"{title}.png")
+  fig.write_image(img_path, width=1200, height=700, scale=2)
   return None
 
 def save_figs(figs: List[go.Figure], folder: str = "plots") -> None:
@@ -96,6 +97,7 @@ def update_songs(df: Optional[pd.DataFrame], country: Optional[str]) -> Tuple[Di
 
 def update_plot(df: Optional[pd.DataFrame], country: Optional[str], song: Optional[str]) -> Optional[go.Figure]:
     return plot_song(df, country, song)
+
 
 
 
