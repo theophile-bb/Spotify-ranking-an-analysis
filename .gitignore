@@ -54,9 +54,10 @@ data/
 *.pdf
 *.svg
 
-!plots/
-!plots/*.html
 
 # Track Plotly HTML exports
+
+# Track all plots (HTML + PNG)
 !plots/
-!plots/*.html
+!plots/html/
+!plots/png/
