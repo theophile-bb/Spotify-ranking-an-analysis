@@ -60,6 +60,8 @@ data/
 # Track all plots (HTML + PNG)
 
 # Track all plots (HTML + PNG)
+
+# Track all plots (HTML + PNG)
 !plots/
 !plots/html/
 !plots/png/
