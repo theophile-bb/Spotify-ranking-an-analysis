@@ -6,6 +6,8 @@
 
 This project contains a comprehensive analysis of **Spotify’s regional Top 200 song charts** to uncover trends and characteristics of modern popular music and provides a simple Gradio webapp for interactive visualization of track rankings by region.
 
+You can acces the notebook via this link : https://theophile-bb.github.io/Spotify-ranking-an-analysis/Spotify_Analysis.html
+
 ---
 
 ## Project Structure
