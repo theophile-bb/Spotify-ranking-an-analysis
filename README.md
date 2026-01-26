@@ -14,10 +14,10 @@ You can acces the notebook via this link : https://theophile-bb.github.io/Spotif
 
 Spotify-ranking-an-analysis/<br>
 ├── 📂 Notebooks/<br>
-│   ├── Spotify_Analysis.ipynb<br>
 │   ├── Spotify_webapp.ipynb<br>
 │<br>
 ├── Spotify Analysis.html<br>
+├── Spotify_Analysis.ipynb<br>
 │<br>
 ├── 📂 src/<br>
 │   ├── __init__.py<br>
