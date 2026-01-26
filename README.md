@@ -1,6 +1,6 @@
 # Spotify Ranking : an analysis
 
-[![Colab](https://img.shields.io/badge/Open%20in-Colab-blue?logo=googlecolab)](https://colab.research.google.com/github/theophile-bb/Spotify-ranking-an-analysis/blob/main/Spotify%20Analysis.ipynb)
+[![Colab](https://img.shields.io/badge/Open%20in-Colab-blue?logo=googlecolab)](https://colab.research.google.com/github/theophile-bb/Spotify-ranking-an-analysis/blob/main/Spotify_Analysis.ipynb)
 [![Kaggle Dataset](https://img.shields.io/badge/Kaggle-Dataset-blue?logo=kaggle)](https://www.kaggle.com/datasets/yelexa/spotify200)
 [![Website](https://img.shields.io/badge/Website-GitHub%20Pages-blue?logo=github)](https://theophile-bb.github.io/Spotify-ranking-an-analysis/Spotify_Analysis.html)
 
@@ -101,11 +101,11 @@ It includes:
 Example of visualizations made :
 
 *Word map of streams density*
-<img width="1904" height="910" alt="map_plot" src="https://github.com/user-attachments/assets/fb620a32-5420-4c84-a068-187a2722c63e" />
+![Map](plots/png/Number_of_streams_for_each_world_region.png)
 
 *Music genre repartition*
-<img width="1904" height="910" alt="pie_plot" src="https://github.com/user-attachments/assets/709737d5-0ac7-42f9-be56-9b352086ab5c" />
+![Pie](plots/png/Genre_Distribution_in_Weekly_Top_Songs.png)
 
 *Countries with the most streams*
-<img width="1904" height="910" alt="bar_plot" src="https://github.com/user-attachments/assets/ffc3aa7d-667a-4f64-8f8b-10c09349efa5" />
+![Bar](plots/png/Streams_count_of_Weekly_Top_Songs_by_country.png)
 
