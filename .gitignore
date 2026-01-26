@@ -58,6 +58,8 @@ data/
 # Track Plotly HTML exports
 
 # Track all plots (HTML + PNG)
+
+# Track all plots (HTML + PNG)
 !plots/
 !plots/html/
 !plots/png/
