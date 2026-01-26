@@ -5,6 +5,7 @@ import kagglehub
 import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
+import plotly.io as pio
 from datetime import datetime
 from typing import List, Tuple, Optional, Any, Union, Dict
 import plotly.graph_objects as go
@@ -95,6 +96,7 @@ def update_songs(df: Optional[pd.DataFrame], country: Optional[str]) -> Tuple[Di
 
 def update_plot(df: Optional[pd.DataFrame], country: Optional[str], song: Optional[str]) -> Optional[go.Figure]:
     return plot_song(df, country, song)
+
 
 
 
